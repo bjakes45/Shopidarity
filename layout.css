@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.popup-position {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+#popup-wrapper {
+    background-color: #333;
+    border: solid #000;
+    width: 500px;
+    margin: 200px auto;  
+}
+#popup-wrapper h4 {
+    color: #999;
+}
+#popup-container {
+    background-color: #FFF;
+    margin-top: 17px;
+    padding: 20px;
+    text-align: left;
+    border-top: solid #000;
+
+}
+#Lside {
+    float:left;
+}
+#Rside {
+    float: right;
+}
+#Holder {
+    width: 980px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#Header {
+    height: 60px;
+    width: 980px;
+    background-image: url('Shopbar.jpg');
+    margin-bottom: 11px;
+}
+#NavBar {
+    height: 60px;
+    background-color: rgb(13, 13, 13);
+}
+#Content {
+    height: auto;
+    clear: both;
+    padding-left: 9px;
+    background-color: #E6E6E6;
+}
+#PageHeading {
+    height: auto;
+    padding: 11px;
+}
+#ContentLeft {
+    width: 275px;
+    height: 613px;
+    float: left;
+    padding-top: 11px;
+    padding-left: 11px;
+    margin-bottom: 5px;
+    background-color: #FFFFFF;        
+}
+#ContentRight {
+    width: 664px;
+    float: right;
+    height: 625px;
+    padding-left: 11px;
+    overflow-y : scroll;
+    margin-bottom: 5px;
+    background-color: #FFFFFF;
+}
+#Footer {
+    height: auto;
+    padding-left: 9px;
+    padding-bottom: 9px;
+    background-color: #E6E6E6;
+}
+#RafResults {
+    width: 240px;
+    height: auto;
+    float: left;
+}
+#FindVendor {
+    width: 190px;
+    padding : 3px;
+}
+#map-canvas {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 400px;
+    height: 325px;
+}
+#CompanyPic {
+    margin-left: 12px;
+    width: 300px;
+    height: 225px;
+    
+}
+.error {
+    color: #FF0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-weight: lighter;
+}
+h1 a{
+    text-decoration: none;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-weight: lighter;
+}
+#Header h1 {
+    margin: 0;
+    font-family: Courier New, Helvetica, sans-serif;
+    color: #666;
+    font-weight: lighter;
+}
+#Header h1 a{
+    text-decoration: none;
+    margin: 0;
+    font-family: Courier New, Helvetica, sans-serif;
+    color: #000;
+    font-weight: lighter;
+}
+h2 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #999
+}
+h2 a{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #999
+}
+h2 a:hover{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #999
+}
+h4 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #666
+}
+h4 a{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #999
+}
+h4 a:hover{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #999
+}
+h6 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #333
+}
+h6 a{
+    margin: 0;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #333
+}
+table, thead, td {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+table, thead, td {
+    text-align: center;
+}
+
+
